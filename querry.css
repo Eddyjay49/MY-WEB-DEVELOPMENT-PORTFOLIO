@@ -82,33 +82,45 @@ footer{
 @media (max-width:36rem) {
     /* 576/16px = 36rem */
 
-    html{
+    html {
         font-size: 50%;
         /* 8px / 16px */
     }
 
-     .home img{
-    width: 35vw;
-     }
+    .home img {
+        width: 35vw;
+    }
 
-     .about img{
-    width: 35vw;
-}
-.logo{
-    font-size: 3rem;
-}
+    .about img {
+        width: 80%;   /* make image more responsive */
+        max-width: 300px;
+    }
 
-.Skills{
-    gap: 3rem;
-}
+    .logo {
+        font-size: 3rem;
+    }
 
-.about{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    .Skills {
+        gap: 2rem;
+        flex-direction: column; /* stack skills on mobile */
+        align-items: center;
+    }
 
-.about-box{
-    text-align: center;
-}
+    .about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1.5rem;   /* ✅ add left & right padding */
+    }
+
+    .about-box {
+        text-align: center;
+        padding: 0 1rem;   /* ✅ prevents text from cutting */
+    }
+
+    .about-box h1,
+    .about-box h2,
+    .about-box p {
+        word-wrap: break-word;  /* ✅ ensures long text breaks properly */
+    }
 }
