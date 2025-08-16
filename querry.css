@@ -1,0 +1,104 @@
+@media (max-width:61rem) {
+    /* 968/16px = 60.5 */
+    /* 61rem x 16px = 976 */
+     html{
+        font-size: 62.5%;
+        /* 10px / 16px = 62.5% */
+    }
+
+    nav .btn{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    .links{
+        position: absolute;
+        top: 100%;
+        padding: 1rem 3rem;
+        right: 0;
+        width: 100%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: rgb(0, 0, 0, 0.9);
+        display: none;
+    }
+
+    .links a{
+        margin: 3rem 0;
+        display: block;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .links.active{
+        display: block;
+    }
+
+    .home img{
+    width: 22vw;
+}
+
+.about{
+    flex-direction: column;
+}
+
+.about img{
+    width: 27vw;
+}
+}
+
+@media (max-width:48rem) {
+     /* 760/16px = 47.5 */
+    /* 48rem x 16px = 768 */
+     html{
+        font-size: 56.25%;
+        /* 9px / 16px */
+     }
+
+    .home img{
+        width: 25vw;
+    }
+
+    .about img{
+    width: 30vw;
+}
+
+.about.skills{
+    gap:5rem;
+}
+
+footer{
+    flex-direction: column;
+    gap: 5rem;
+    align-items: baseline;
+}
+}
+
+@media (max-width:36rem) {
+    /* 576/16px = 36rem */
+
+    html{
+        font-size: 50%;
+        /* 8px / 16px */
+    }
+
+     .home img{
+    width: 35vw;
+     }
+
+     .about img{
+    width: 35vw;
+}
+.logo{
+    font-size: 3rem;
+}
+
+.Skills{
+    gap: 3rem;
+}
+}
