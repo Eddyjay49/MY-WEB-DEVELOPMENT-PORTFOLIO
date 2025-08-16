@@ -174,7 +174,8 @@ p{
 
 
 /* ABOUT SECTION */
-.about{
+/* ================= ABOUT SECTION ================= */
+.about {
     background-color: var(--second-background);
     display: flex;
     align-items: center;
@@ -183,39 +184,42 @@ p{
     margin-top: 10rem;
 }
 
-.about img{
+.about img {
     width: 30vw;
+    max-width: 400px;
     border-radius: 1rem;
 }
 
-.about-box{
+.about-box {
     display: flex;
-    text-align: left;
     flex-direction: column;
+    text-align: left;
     gap: 2rem;
+    max-width: 600px; /* prevent huge text from stretching container */
 }
 
-.about-box h1{
+.about-box h1 {
     font-size: 6rem;
 }
 
-.about-box h2{
+.about-box h2 {
     font-size: 5rem;
 }
 
-.about-box p{
+.about-box p {
     color: #ffffff;
-    opacity: 1;
     font-size: 2rem;
+    opacity: 1;
 }
 
-.Skills{
+/* Skills Section */
+.Skills {
     display: flex;
     text-align: left;
     gap: 10rem;
 }
 
-.Skills ul{
+.Skills ul {
     font-size: 1.3rem;
     font-weight: 500;
     display: flex;
@@ -223,7 +227,7 @@ p{
     align-items: center;
 }
 
-.Skills ul li span{
+.Skills ul li span {
     display: flex;
     gap: 0.5rem;
     font-size: 3.2rem;
@@ -231,15 +235,13 @@ p{
     align-items: center;
 }
 
-.Skills ul li span:hover{
+.Skills ul li span:hover {
     transform: translate(10px);
 }
 
-.Skills ul li h1{
-    font-size:1.2rem;
+.Skills ul li h1 {
+    font-size: 1.2rem;
 }
-
-
 /* SERVICES SECTION */
 
 .services{
