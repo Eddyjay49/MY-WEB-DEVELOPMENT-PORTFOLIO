@@ -278,9 +278,10 @@ p {
 }
 .box img {
     width: 100%;
-    border-radius: 0.7rem;
+    border-radius: 2rem;
     object-fit: cover;
 }
+
 
 /* CONTACT SECTION */
 .contact {
