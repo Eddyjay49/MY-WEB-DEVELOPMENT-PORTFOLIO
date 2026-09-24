@@ -48,7 +48,6 @@
     }
 
     /* Home */
-
     .home img {
         width: 22rem;
         height: 22rem;
@@ -195,8 +194,8 @@
     }
 
     .home img {
-        width: 17rem;
-        height: 17rem;
+        width: 20rem;
+        height: 20rem;
 
         margin-top: 1rem;
     }
@@ -206,17 +205,17 @@
     }
 
     .info-box h1 {
-        font-size: 3.6rem;
+        font-size: 3.8rem;
+        margin-bottom: -1rem;
     }
 
     .info-box h2 {
         font-size: 2.6rem;
-        line-height: 1.5;
+        /* line-height: 1.5; */
     }
 
     .info-box p {
-        font-size: 1.5rem;
-
+        font-size: 1.7rem;
         line-height: 1.8;
     }
 
@@ -224,7 +223,6 @@
 
     .btn-box {
         flex-wrap: wrap;
-
         justify-content: center;
     }
 
@@ -232,7 +230,6 @@
 
     .about {
         padding: 6rem 5%;
-
         gap: 3rem;
     }
 
@@ -249,11 +246,11 @@
     }
 
     .about-box p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .about img {
-        width: 20rem;
+        width: 30rem;
     }
 
     /* Skills */
@@ -290,11 +287,11 @@
     }
 
     .box p {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 
-    /* Contact */
 
+    /* Contact */
     .contact {
         padding: 6rem 5%;
     }
@@ -316,15 +313,20 @@
     }
 
     .contact-card p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .contact-card p i {
         font-size: 2.2rem;
     }
 
-    /* Footer */
+    .contact-card .contact-p{
+        font-size: 1.5rem;
+    }
 
+
+    
+    /* Footer */
     footer {
         padding: 5rem 7%;
 
