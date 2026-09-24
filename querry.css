@@ -9,7 +9,6 @@
     }
 
     /* Navigation */
-
     nav {
         padding: 2rem 6%;
     }
@@ -37,9 +36,7 @@
 
     .links a {
         display: block;
-
         font-size: 1.8rem;
-
         margin: 1rem 0;
     }
 
@@ -126,8 +123,8 @@
         font-size: 4.5rem;
     }
 
-    /* Services */
 
+    /* Services */
     .service-header,
     .Header {
         font-size: 4.8rem;
@@ -151,9 +148,7 @@
 
     footer {
         flex-direction: column;
-
         gap: 4rem;
-
         align-items: flex-start;
     }
 }
@@ -211,7 +206,6 @@
 
     .info-box h2 {
         font-size: 2.6rem;
-        /* line-height: 1.5; */
     }
 
     .info-box p {
@@ -253,26 +247,7 @@
         width: 30rem;
     }
 
-    /* Skills */
-
-    .Skills {
-        justify-content: center;
-
-        width: 100%;
-    }
-
-    .Skills ul {
-        justify-content: center;
-
-        gap: 1.5rem;
-    }
-
-    .Skills ul li span {
-        font-size: 1.8rem;
-    }
-
     /* Services */
-
     .service-header,
     .Header {
         font-size: 3.8rem;

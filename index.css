@@ -40,6 +40,7 @@ body {
     margin: 0 auto;
 }
 
+
 /* NAVIGATION */
 nav {
     position: fixed;
@@ -108,6 +109,7 @@ nav .btn:hover {
     cursor: pointer;
 }
 
+
 /* GENERAL */
 section {
     min-height: 100vh;
@@ -141,6 +143,7 @@ p {
     background-color: var(--gold);
     color: var(--background);
 }
+
 
 /* HOME SECTION */
 .home {
@@ -195,6 +198,7 @@ p {
     color: var(--background);
 }
 
+
 /* ABOUT SECTION */
 .about {
     background-color: var(--second-background);
@@ -216,11 +220,12 @@ p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    gap: 2rem;
+    gap: 2rem; 
     max-width: 650px;
 }
 .about-box h1 {
     font-size: 5rem;
+    margin-bottom: 5rem;
 }
 .about-box h2 {
     font-size: 3.5rem;
@@ -228,33 +233,6 @@ p {
 .about-box p {
     font-size: 1.6rem;
 }
-
-/* SKILLS */
-.Skills {
-    display: flex;
-    text-align: left;
-    gap: 4rem;
-}
-.Skills ul {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-.Skills ul li span {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 2rem;
-    color: var(--white);
-    background: none;
-    transition: 0.3s ease;
-}
-.Skills ul li span:hover {
-    color: var(--gold-light);
-    transform: translateX(6px);
-}
-
 
 
 /* SERVICES SECTION */
