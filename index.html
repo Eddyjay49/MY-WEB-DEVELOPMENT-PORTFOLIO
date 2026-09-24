@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="querry.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -21,6 +22,7 @@
                 <a href="#services">Services</a>
                 <a href="#contact">Contact</a>
             </ul>
+            <!-- <i class="bx bx-menu" id="menu"></i> -->
             <i class="bx bx-menu" id="menu"></i>
             <a href="#contact" class="btn">Contact me</a>
         </nav>
@@ -30,31 +32,40 @@
             <img src="image/nwaba.png" alt="Eddyjay">
             <div class="info-box">
                 <h1><span>Hello! i'm Jerry!</span></h1>
-                <h3><span>A web developer</span> based in Enugu, Nigeria.</h3>
+                <h2><span>A web developer</span> based in Enugu, Nigeria.</h2>
                 <p>I am a Frontend developer on a learning journey, with a growing love for technology. My passion deepens each day as I explore
-                the world of code and creativity. I aspire to become a skilled frontend developer — one who solves real-world
+                the world of code and creativity. I aspire to become a skilled frontend developer, one who solves real-world
                 problems through technology and builds visually appealing, impactful solutions that serve both society and the
                 ever-evolving tech landscape.
                 </p>
             </div>
         
             <div class="btn-box">
-                <div  class="btn">Hire Me</div>
-                <div  class="btn">Contact Me</div>
+                <div class="btn">Hire Me</div>
+                <div id="btn2" class="btn">
+                    <a href="#contact">Contact Me</a>
+                </div>
+                <!-- <div class="btn" >Contact Me</div> -->
             </div>
         </section>
+
 
         <!-- ABOUT SECTION -->
         <section id="about" class="about">
             <div class="about-box">
                 <div class="about-info">
                     <h1><span>About Me</span></h1>
-                    <p>I'm a beginner in web development, based in Enugu, Nigeria. I’ve recently started my journey into the tech world with a
-                    strong interest in building interactive and user-friendly websites. As a learner, I’m currently focusing on learning the
-                    core fundamentals of web development HTML, CSS, and JavaScript — while exploring how to turn creative ideas into real
-                    web projects.
-                    My goal is to become a proficient and job-ready web developer who can build modern websites and contribute to digital
-                    solutions both locally and globally.</p>
+                    <p>
+                        I'm a beginner in web development, based in Enugu, Nigeria, currently building my journey in frontend
+                        development.
+                        I'm focused on mastering the core fundamentals of web development — HTML, CSS, and JavaScript, while learning
+                        how to create responsive, interactive, and user-friendly websites.
+                    
+                        As I grow, I aim to become highly proficient in modern frontend frameworks and tools such as Tailwind, React and
+                        Next.js,
+                        while continuously improving my problem-solving and development skills. My goal is to become a skilled,
+                        job-ready frontend developer capable of turning ideas into modern, functional, and engaging web experiences.
+                    </p>
                 </div>
 
                 <h2><span>Skills</span></h2>
@@ -73,58 +84,98 @@
         <!-- SERVICES SECTION -->
         <section id="services" class="services">
             <h1 class="service-header"><span>Services</span></h1>
-
+        
             <div class="service-container">
+        
                 <div class="box">
                     <h1><span>Web Designing</span></h1>
                     <p>
-                    I create visually appealing and user-friendly website layouts that reflect your brand’s identity and 
-                    provide an excellent user experience across all devices.
+                        I create clean, visually appealing, and user-friendly website layouts designed to communicate your
+                        brand effectively while providing a smooth experience across different devices.
                     </p>
                     <img src="image/design.jpeg" alt="Web Designing">
                 </div>
-
+        
                 <div class="box">
-                    <h1><span>Graphics Designing</span></h1>
+                    <h1><span>Printing Services</span></h1>
                     <p>
-                    I design eye-catching graphics for both digital and print media—such as logos, flyers, banners, social media posts, and
-                    branding materials.
+                        I provide quality printing solutions for both personal and business needs, including business cards,
+                        flyers, posters, banners, brochures, and other promotional materials, with attention to clarity,
+                        presentation, and professional finishing.
                     </p>
-                    <img src="image/graphics.jpeg" alt="Graphics Designing">
+                    <img src="image/graphics.jpeg" alt="Printing Services">
                 </div>
-
+        
                 <div class="box">
-                    <h1><span>Web Development</span> </h1>
-                    <p>With the little knowledge i have in web development, I can build functional and interactive websites using modern technologies.
+                    <h1><span>Web Development</span></h1>
+                    <p>
+                        I build responsive and interactive websites using modern frontend technologies, with a focus on clean
+                        structure, functional interfaces, and a smooth experience across different screen sizes.
                     </p>
                     <img src="image/web.jpeg" alt="Web Development">
                 </div>
+        
             </div>
+        
         </section>
+
 
         <!-- CONTACT SECTION -->
 
         <section id="contact" class="contact">
             <h1 class="Header"><span>Contact</span></h1>
-        <form action="#">
-            <div class="input-box">
-                <span>Full Name</span>
-                <input type="text" placeholder="Enter Your Full Name">
+
+            <div class="contact-layout">
+                
+                <div class="contact-card">
+                    <h3>Chat With Us</h3>
+                    <p>
+                        <i class="bx bxl-whatsapp"></i>
+                        <a href="https://wa.me/2348062574649" target="_blank">
+                            Message us on WhatsApp
+                        </a>
+                    </p>
+                
+                    <p class="contact-p">
+                        Reach out to us instantly on WhatsApp for quick responses, and inquiries.
+                    </p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>Call</h3>
+                    <p><i class="bx bx-phone"></i> +234 703 034 5670 </p>
+                    <p><i class="bx bx-phone"></i> +234 813 664 0707</p>
+                    <p class="contact-p">Feel free to contact us at any time—your message matters, and you can be sure of a warm, kind
+                        and timely response.</p>
+                </div>
+                
+                
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p> 
+                        <a href="mailto:nwabajceze@gmail.com">Send Email</a>
+                    </p>
+                    <p class="contact-p">We welcome your emails and inquiries. Please don't hesitate to reach out to us via email for
+                        any inquiry, questions or information you may need.</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>Follow Us</h3>
+                    <p>
+                        <i class="bx bxl-facebook"></i>
+                        <a href="https://www.facebook.com/Nwabajerryeze" target="_blank">
+                            Visit our Facebook Page
+                        </a>
+                    </p>
+                    <p class="contact-p">
+                        Stay connected with us on Facebook for updates, programs, and spiritual encouragement.
+                    </p>
+                </div>
+
             </div>
 
-            <div class="input-box">
-                <span>Your Email</span>
-                <input type="text" placeholder="Enter Your Email">
-            </div>
-
-            <div class="input-box">
-                <span>Your message</span>
-                <input type="text" placeholder="Enter Your Message">
-            </div>
-
-            <div class="btn">Submit</div>
-        </form>
         </section>
+
 
         <!-- FOOTER SECTION -->
         <footer>
@@ -158,6 +209,7 @@
                 </div>
             </div>
         </footer>
+
     </div>
     <script src="script.js"></script>
 </body>

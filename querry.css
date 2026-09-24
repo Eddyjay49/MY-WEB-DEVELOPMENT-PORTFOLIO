@@ -1,143 +1,345 @@
-@media (max-width:61rem) {
-    /* 968/16px = 60.5 */
-    /* 61rem x 16px = 976 */
-     html{
-        font-size: 62.5%;
-        /* 10px / 16px = 62.5% */
+
+
+/* TABLET — 976px */
+
+@media (max-width: 61rem) {
+
+    html {
+        font-size: 60%;
     }
 
-    nav .btn{
+    /* Navigation */
+
+    nav {
+        padding: 2rem 6%;
+    }
+
+    nav .btn {
         display: none;
     }
 
-    #menu{
+    #menu {
         display: block;
     }
 
-    .links{
+    .links {
         position: absolute;
         top: 100%;
-        padding: 1rem 3rem;
         right: 0;
         width: 100%;
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background: rgb(0, 0, 0, 0.9);
+        padding: 2rem 3rem;
+        background: rgba(15, 15, 15, 0.97);
         display: none;
+        flex-direction: column;
+        gap: 2rem;
+        border-bottom: 1px solid rgba(255, 0, 255, 0.2);
     }
 
-    .links a{
-        margin: 3rem 0;
+    .links a {
         display: block;
-        font-size: 2rem;
-        color: #ffffff;
+
+        font-size: 1.8rem;
+
+        margin: 1rem 0;
     }
 
-    .links.active{
-        display: block;
+    .links.active {
+        display: flex;
     }
 
-    .home img{
-    width: 22vw;
-}
+    /* Home */
 
-.about{
-    flex-direction: column;
-}
-
-.about img{
-    width: 27vw;
-}
-}
-
-@media (max-width:48rem) {
-     /* 760/16px = 47.5 */
-    /* 48rem x 16px = 768 */
-     html{
-        font-size: 56.25%;
-        /* 9px / 16px */
-     }
-
-    .home img{
-        width: 25vw;
+    .home img {
+        width: 22rem;
+        height: 22rem;
     }
 
-    .about img{
-    width: 30vw;
-}
-
-.about.skills{
-    gap:5rem;
-}
-
-footer{
-    flex-direction: column;
-    gap: 5rem;
-    align-items: baseline;
-}
-}
-
-/* ================= MOBILE RESPONSIVE ================= */
-@media (max-width: 36rem) {
-    html {
-        font-size: 50%; /* scales all rem units for mobile */
+    .info-box h1 {
+        font-size: 5rem;
     }
 
-    .home img{
-        width: 80%;
-        max-width: 250px;
+    .info-box h3 {
+        font-size: 2.3rem;
     }
 
-    .main-container {
-        width: 95%;
-        padding: 0 1rem; /* prevent text from touching edges */
-        margin: 0 auto;
-    }
+    /* About */
 
     .about {
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem; /* reduce gap for mobile */
-        padding: 0;
+        text-align: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
     }
 
     .about-box {
+        align-items: center;
         text-align: center;
-        max-width: 100%;
-    }
-
-    .about-box h1 {
-        /* font-size: 3rem; shrink headings for mobile */
-        word-break: break-word;
-    }
-
-    .about-box h2 {
-        /* font-size: 2.5rem; */
-        word-break: break-word;
-    }
-
-    .about-box p {
-        /* font-size: 1.4rem; */
-        word-break: break-word;
     }
 
     .about img {
-        width: 80%;
-        max-width: 250px; /* responsive image */
+        width: 25rem;
     }
 
-    .Skills {
+    /* Footer */
+
+    footer {
+        padding: 5rem 8%;
+    }
+}
+
+/* TABLET / SMALL LAPTOP — 768px */
+
+@media (max-width: 48rem) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+    section {
+        padding: 7rem 6%;
+    }
+
+    /* Home */
+    .home {
+        margin-top: 5rem;
+    }
+
+    .home img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .info-box h1 {
+        font-size: 4.5rem;
+    }
+
+    .info-box h3 {
+        font-size: 2.1rem;
+    }
+
+    /* About */
+
+    .about {
+        gap: 3rem;
+    }
+
+    .about-box h1 {
+        font-size: 4.5rem;
+    }
+
+    /* Services */
+
+    .service-header,
+    .Header {
+        font-size: 4.8rem;
+    }
+
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+
+    .contact {
+        padding: 7rem 6%;
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+
+    footer {
         flex-direction: column;
-        align-items: center;
+
+        gap: 4rem;
+
+        align-items: flex-start;
+    }
+}
+
+
+/* MOBILE — 576px */
+
+@media (max-width: 36rem) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    section {
+        padding: 6rem 5%;
+    }
+
+    /* Navigation */
+
+    nav {
+        padding: 1.8rem 5%;
+    }
+
+    .logo {
+        font-size: 2.2rem;
+    }
+
+    /* Home */
+
+    .home {
+        padding-top: 8rem;
+
         gap: 2rem;
-        text-align: center;
+    }
+
+    .home img {
+        width: 17rem;
+        height: 17rem;
+
+        margin-top: 1rem;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .info-box h1 {
+        font-size: 3.6rem;
+    }
+
+    .info-box h2 {
+        font-size: 2.6rem;
+        line-height: 1.5;
+    }
+
+    .info-box p {
+        font-size: 1.5rem;
+
+        line-height: 1.8;
+    }
+
+    /* Buttons */
+
+    .btn-box {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    /* About */
+
+    .about {
+        padding: 6rem 5%;
+
+        gap: 3rem;
+    }
+
+    .about-box {
+        width: 100%;
+    }
+
+    .about-box h1 {
+        font-size: 3.8rem;
+    }
+
+    .about-box h2 {
+        font-size: 3rem;
+    }
+
+    .about-box p {
+        font-size: 1.5rem;
+    }
+
+    .about img {
+        width: 20rem;
+    }
+
+    /* Skills */
+
+    .Skills {
+        justify-content: center;
+
+        width: 100%;
     }
 
     .Skills ul {
         justify-content: center;
-        flex-wrap: wrap; /* wrap skills if too wide */
+
+        gap: 1.5rem;
+    }
+
+    .Skills ul li span {
+        font-size: 1.8rem;
+    }
+
+    /* Services */
+
+    .service-header,
+    .Header {
+        font-size: 3.8rem;
+    }
+
+    .box {
+        padding: 2rem;
+    }
+
+    .box h1 {
+        font-size: 2.2rem;
+    }
+
+    .box p {
+        font-size: 1.4rem;
+    }
+
+    /* Contact */
+
+    .contact {
+        padding: 6rem 5%;
+    }
+
+    .contact .Header {
+        margin-bottom: 3rem;
+    }
+
+    .contact-layout {
+        gap: 1.8rem;
+    }
+
+    .contact-card {
+        padding: 2.2rem;
+    }
+
+    .contact-card h3 {
+        font-size: 2rem;
+    }
+
+    .contact-card p {
+        font-size: 1.4rem;
+    }
+
+    .contact-card p i {
+        font-size: 2.2rem;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 5rem 7%;
+
+        gap: 4rem;
+    }
+
+    .col-right {
+        width: 100%;
+    }
+
+    .col-right p {
+        font-size: 1.4rem;
+    }
+/* === */
+    .about, .services, .contact{
+        margin-top: 5rem;
     }
 }
