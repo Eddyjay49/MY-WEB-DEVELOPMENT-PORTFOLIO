@@ -98,8 +98,8 @@
     }
 
     .home img {
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        height: 25rem;
     }
 
     .info-box h1 {
@@ -176,13 +176,12 @@
 
     .home {
         padding-top: 8rem;
-
         gap: 2rem;
     }
 
     .home img {
-        width: 30rem;
-        height: 30rem;
+        width: 25rem;
+        height: 25rem;
         margin-top: 1rem;
     }
 
@@ -191,7 +190,7 @@
     }
 
     .info-box h1 {
-        font-size: 3.8rem;
+        font-size: 3.9rem;
         margin-bottom: -1rem;
     }
 
