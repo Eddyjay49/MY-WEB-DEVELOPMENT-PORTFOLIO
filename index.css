@@ -57,6 +57,22 @@ nav {
     border-bottom: 1px solid rgba(230, 178, 64, 0.15);
 }
 
+.nav-logo1{
+ width: 10rem;
+ height: 5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.logo1{
+    width: 6rem;
+    height: 4rem;
+    border-radius: 7px;
+    border: 2px solid var(--gold);
+}
+
 .logo {
     font-size: 2.4rem;
     font-weight: 700;

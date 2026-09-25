@@ -1,9 +1,7 @@
 
 
 /* TABLET — 976px */
-
 @media (max-width: 61rem) {
-
     html {
         font-size: 60%;
     }
@@ -78,16 +76,14 @@
     }
 
     /* Footer */
-
     footer {
         padding: 5rem 8%;
     }
 }
 
+
 /* TABLET / SMALL LAPTOP — 768px */
-
 @media (max-width: 48rem) {
-
     html {
         font-size: 56.25%;
     }
@@ -115,7 +111,6 @@
     }
 
     /* About */
-
     .about {
         gap: 3rem;
     }
@@ -136,7 +131,6 @@
     }
 
     /* Contact */
-
     .contact {
         padding: 7rem 6%;
     }
@@ -146,7 +140,6 @@
     }
 
     /* Footer */
-
     footer {
         flex-direction: column;
         gap: 4rem;
@@ -156,9 +149,7 @@
 
 
 /* MOBILE — 576px */
-
 @media (max-width: 36rem) {
-
     html {
         font-size: 50%;
     }
@@ -180,7 +171,7 @@
     .logo {
         font-size: 2.2rem;
     }
-
+ 
     /* Home */
 
     .home {
@@ -190,9 +181,8 @@
     }
 
     .home img {
-        width: 20rem;
-        height: 20rem;
-
+        width: 30rem;
+        height: 30rem;
         margin-top: 1rem;
     }
 
@@ -215,14 +205,12 @@
     }
 
     /* Buttons */
-
     .btn-box {
         flex-wrap: wrap;
         justify-content: center;
     }
 
     /* About */
-
     .about {
         padding: 6rem 5%;
         gap: 3rem;
@@ -305,7 +293,6 @@
     /* Footer */
     footer {
         padding: 5rem 7%;
-
         gap: 4rem;
     }
 
@@ -316,6 +303,7 @@
     .col-right p {
         font-size: 1.4rem;
     }
+
 /* === */
     .about, .services, .contact{
         margin-top: 5rem;
